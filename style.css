@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.color-card {
+    border: 2px solid black;
+    margin: 5px;
+    /* padding: 20px; */
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 100px;
+    padding-top: 35px;
+    font-size: 1.5rem;
+}
